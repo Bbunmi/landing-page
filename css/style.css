@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 150px;
+   
+}
+#head {
+    height: 90vh;
+    background-image: url("../img/mount92.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: floralwhite;
+    text-shadow: 5000px;
+    font-weight:lighter;
+   
+}
+nav{
+   
+    height: 50px;
+}
+nav ul{
+    float: right;
+    margin: 10px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#serv {
+    /* background-image: url("../img/back.jpg"); */
+    background-size: cover;
+    
+    text-decoration-color: black;
+    text-decoration: aqua;
+    padding: 10px;
+    /* align-items: center; */
+}
+#services{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-content:center;
+     padding: 30px; 
+    /* size: 80%; */
+
+}
+.service{
+    width: 280px;
+    text-align: center;
+    padding: 30px; 
+}
+
+#check{
+    text-align: center;
+    margin-top: 15px;
+}
+#bbb{
+    width: 80%;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    /* padding: 30px; */
+    
+}
+#bbb> div{
+    width: 50%;
+}
+#dpb{
+    align-content: center;
+    text-align: center;
+}
+
+button{
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+button:hover,button:checked{
+    background-color: blue
+}
+button:visited{
+    background-color: black
+}
